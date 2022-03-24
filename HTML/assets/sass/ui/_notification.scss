@@ -1,0 +1,13 @@
+.notification-box {
+  position: fixed;
+  left: 0;
+  top: -100%;
+  right: 0;
+  width: 100%;
+  z-index: 9999;
+  transition: 0.3s all;
+  margin-top: $safeTop;
+  &.show {
+    top: 0;
+  }
+}
